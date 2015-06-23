@@ -1,0 +1,25 @@
+{
+    "name": "livescript-react-brunch",
+    "version": "0.1.0",
+    "description": "Adds LiveScript and React support to brunch by translating LS to JSX to JS.",
+    "author": "X4lldux (xalldux@gmail.com)",
+    "homepage": "https://github.com/X4lldux/livescript-react-brunch",
+    "keywords": ["brunch", "plugin", "livescript", "react"],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:X4lldux/livescript-react-brunch.git"
+    },
+    "files": ["index.js"],
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "livescript": "1.x",
+        "react-tools": ">= 0.12.1"
+    },
+    "devDependencies": {
+        "mocha": "1.11.0",
+        "chai": "1.7.0"
+    }
+}

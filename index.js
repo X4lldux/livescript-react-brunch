@@ -17,7 +17,7 @@ LiveScriptReactCompiler.prototype.compile = function(data, path, callback) {
             bare: true,
             header: false
         });
-        return result = react.transformWithDetails(jsx, {
+        return result = react.transform(jsx, {
             harmony: true,
             sourceMap: false,
             stripTypes: false
